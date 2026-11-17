@@ -1,0 +1,6 @@
+SQLAlchemy>=2.0,<2.2
+alembic>=1.13
+python-dotenv>=1.0
+pytest>=8.0
+# PostgreSQL ishlatilsa quyidagi qatorni oching:
+# psycopg2-binary>=2.9

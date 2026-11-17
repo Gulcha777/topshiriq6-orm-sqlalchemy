@@ -1,0 +1,13 @@
+# Maxfiy sozlamalar (haqiqiy connection string shu faylda turadi)
+.env
+
+# Ma'lumotlar bazasi fayllari
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/

@@ -1,0 +1,222 @@
+[1] SELECT orders.id, orders.user_id, orders.status, orders.created_at FROM orders ORDER BY orders.id
+    parametrlar: ()
+[2] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (1,)
+[3] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (20,)
+[4] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (9,)
+[5] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (26,)
+[6] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (4,)
+[7] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (2,)
+[8] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (3,)
+[9] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (18,)
+[10] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (10,)
+[11] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (27,)
+[12] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (18,)
+[13] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (3,)
+[14] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (22,)
+[15] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (7,)
+[16] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (4,)
+[17] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (28,)
+[18] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (4,)
+[19] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (10,)
+[20] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (5,)
+[21] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (12,)
+[22] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (7,)
+[23] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (15,)
+[24] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (6,)
+[25] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (6,)
+[26] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (15,)
+[27] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (3,)
+[28] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (7,)
+[29] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (25,)
+[30] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (2,)
+[31] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (8,)
+[32] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (13,)
+[33] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (9,)
+[34] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (13,)
+[35] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (29,)
+[36] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (30,)
+[37] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (21,)
+[38] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (11,)
+[39] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (10,)
+[40] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (19,)
+[41] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (8,)
+[42] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (11,)
+[43] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (5,)
+[44] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (12,)
+[45] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (6,)
+[46] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (13,)
+[47] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (1,)
+[48] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (20,)
+[49] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (14,)
+[50] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (14,)
+[51] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (15,)
+[52] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (9,)
+[53] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (16,)
+[54] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (17,)
+[55] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (16,)
+[56] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (17,)
+[57] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (18,)
+[58] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (2,)
+[59] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (19,)
+[60] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (16,)
+[61] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (20,)
+[62] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (21,)
+[63] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (17,)
+[64] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (22,)
+[65] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (23,)
+[66] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (8,)
+[67] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (1,)
+[68] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (24,)
+[69] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (25,)
+[70] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (26,)
+[71] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (19,)
+[72] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (27,)
+[73] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (28,)
+[74] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (24,)
+[75] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (11,)
+[76] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (29,)
+[77] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (30,)
+[78] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (31,)
+[79] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (32,)
+[80] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (33,)
+[81] SELECT products.id, products.name, products.price, products.stock FROM products WHERE products.id = ?
+    parametrlar: (23,)
+[82] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (34,)
+[83] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (35,)
+[84] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (36,)
+[85] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (37,)
+[86] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (38,)
+[87] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (39,)
+[88] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (40,)
+[89] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (41,)
+[90] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (42,)
+[91] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (43,)
+[92] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (12,)
+[93] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (44,)
+[94] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (45,)
+[95] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (46,)
+[96] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (47,)
+[97] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (14,)
+[98] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (48,)
+[99] SELECT users.id, users.full_name, users.email, users.phone, users.created_at FROM users WHERE users.id = ?
+    parametrlar: (5,)
+[100] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (49,)
+[101] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (50,)
+[102] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (51,)
+[103] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (52,)
+[104] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (53,)
+[105] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (54,)
+[106] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (55,)
+[107] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (56,)
+[108] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (57,)
+[109] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (58,)
+[110] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (59,)
+[111] SELECT order_items.id, order_items.order_id, order_items.product_id, order_items.quantity, order_items.unit_price FROM order_items WHERE ? = order_items.order_id
+    parametrlar: (60,)
